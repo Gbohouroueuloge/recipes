@@ -1,0 +1,70 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: beige;
+
+}
+
+h1 {
+    text-align: center;
+}
+
+h2, h3 {
+    text-align: center;
+    margin-top: 80px;
+    font-size: 30px;
+    font-weight: 50;
+}
+
+article > p {
+    margin-top: 80px;
+    font-size: 25px;
+}
+
+li {
+    margin-top: 20px;
+}
+
+div {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 20px 70px;
+}
+
+article > p {
+    text-align: center;
+}
+
+a > img {
+    width: 500px;
+    height: 300px;
+}
+
+img {
+    margin: 0 15px;
+    border: 3px solid rgba(27, 27, 27, 0.6);
+}
+
+.img_dish {
+    margin: 0 19%;
+}
+
+a {
+    color: black;
+}
+
+button > a, article > p > a {
+    text-decoration: none;
+}
+
+.site_off {
+    text-align: center;
+    width: 230px;
+    height: 30px;
+    margin: 40px 42%;
+    background-color: beige;
+}
+
+footer {
+    margin-top: 100px;
+}
